@@ -4,8 +4,9 @@ Pytorch implementation of an "Explanation vs Attention: A Two Player Game to obt
 
 ### Training Step:
 
+```
     1. Download VQA dataset from [VQA site](https://visualqa.org/) and Ms-COCO images from [Microsoft site] (http://cocodataset.org/#download).
-    
+```    
     2. Create Vocab using: 
     
 ```
