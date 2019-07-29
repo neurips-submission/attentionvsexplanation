@@ -11,6 +11,7 @@ Pytorch implementation of an "Explanation vs Attention: A Two Player Game to obt
     
         ```
         $ python preprocess-vocab.py
+        
         ```
 
 
@@ -18,16 +19,20 @@ Pytorch implementation of an "Explanation vs Attention: A Two Player Game to obt
     
           ```
           $ python preprocessing/preprocess-images_vgg16.py
+          
           ```
     
     4. To train model:
     
           ```
-          $ ./train.sh    
+          $ ./train.sh   
+          
           ```
     5. To evaluate model:
     
            ```
-           $./evaluate.sh    
+           
+           $./evaluate.sh   
+           
            
            ```
