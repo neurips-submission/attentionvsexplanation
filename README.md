@@ -1,7 +1,7 @@
-# attentionvsexplanation
 ## Explanation vs Attention: A Two Player Game to obtain Attention for VQA
 
 Pytorch implementation of an "Explanation vs Attention: A Two Player Game to obtain Attention for VQA" .
+
 ### Training Step:
 
     1. Download VQA dataset from [VQA site](https://visualqa.org/) and Ms-COCO images from [Microsoft site] (http://cocodataset.org/#download).
@@ -9,9 +9,9 @@ Pytorch implementation of an "Explanation vs Attention: A Two Player Game to obt
     
     2. Create Vocab using: 
     
-    ```
-    $ python preprocess-vocab.py
-    ```
+        ```
+        $ python preprocess-vocab.py
+        ```
 
 
     3. Preprocess the MSCOCO image file using : 
