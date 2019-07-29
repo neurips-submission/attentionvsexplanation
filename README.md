@@ -9,30 +9,30 @@ Pytorch implementation of an "Explanation vs Attention: A Two Player Game to obt
     
     2. Create Vocab using: 
     
-        ```
-        $ python preprocess-vocab.py
-        
-        ```
+```
+$ python preprocess-vocab.py
+
+```
 
 
     3. Preprocess the MSCOCO image file using : 
     
-          ```
-          $ python preprocessing/preprocess-images_vgg16.py
-          
-          ```
+```
+$ python preprocessing/preprocess-images_vgg16.py
+
+```
     
     4. To train model:
     
-          ```
-          $ ./train.sh   
-          
-          ```
+```
+$ ./train.sh   
+
+```
     5. To evaluate model:
-    
-           ```
-           
-           $./evaluate.sh   
-           
-           
-           ```
+
+```
+
+$./evaluate.sh   
+
+
+```
