@@ -7,13 +7,13 @@ Pytorch implementation of an "Explanation vs Attention: A Two Player Game to obt
 ```
     1. Download VQA dataset from [VQA site](https://visualqa.org/) and Ms-COCO images from [Microsoft site] (http://cocodataset.org/#download).
 ```    
-    2. Create Vocab using: 
+    2. To create vocab : 
     
 ```
-$ python preprocess-vocab.py
+$ python preprocessing/preprocess-vocab.py
 
 ```
-    3. Preprocess the MSCOCO image file using : 
+    3. Preprocess the MSCOCO images using : 
     
 ```
 $ python preprocessing/preprocess-images_vgg16.py
